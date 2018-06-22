@@ -6,7 +6,11 @@ public class PublicVar {
     public String username = "A";
     public String password = "AA";
 
-    synchronized public void setValue(String username, String password) {
+
+
+
+
+      synchronized public void setValue(String username, String password) {
         try {
             this.username = username;
             Thread.sleep(5000);
