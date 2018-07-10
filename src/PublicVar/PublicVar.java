@@ -15,7 +15,7 @@ public class PublicVar {
             this.username = username;
             Thread.sleep(5000);
             this.password = password;
-            System.out.println("set method Thread Name=" + Thread.currentThread().getName() + "username:" + username + "password:" + password);
+            System.out.println("set method ThreadA Name=" + Thread.currentThread().getName() + "username:" + username + "password:" + password);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
